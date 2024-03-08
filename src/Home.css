@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #002147; 
+  color: white;
+  font-weight: 200;
+  font-family: 'oxygen', sans-serif; 
+  font-style: normal; 
+  font-size: large;
+  overflow: auto; 
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: hwb(173 25% 0%);
+   }
+
+  .background-container {
+    background-image: url('/public/image/pic.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+  }
+  
+  @media (max-width: 768px) { 
+    .background-container {
+      background-size: cover;
+    }
+  }
+  
+
+.text-container {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.text-content {
+  margin-top: 100px; 
+  display: flex;
+  margin-right: 50vw; 
+  flex-direction: column; 
+  align-items: right; 
+  justify-content: right; 
+}
+
+.content {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 300px; 
+}
+
+.contact-button {
+  background-color: blue; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.contact-button:hover {
+  background-color: #002147;
+}
+
+.home-page .fisocial-icons {
+  display: flex; 
+  font-size: 24px; 
+}
+
+.fisocial-icons {
+  margin: 0 4px; 
+  color: white; 
+  font-size: 23px; 
+}
+
+
+
+

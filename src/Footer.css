@@ -1,0 +1,24 @@
+.footer {
+  background-color: #002147;;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    line-height: 1% ;
+  }
+  .footer p {
+    margin: 10px 0; /* Adjust the margin to decrease the space between paragraphs */
+  }
+  .footer .fisocial-icons {
+    
+    justify-content: center;
+  }
+  
+  .footer .fisocial-icons i {
+    margin: 0 5px; /* Adjust margin between icons */
+    color: white;
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #002147;
+  color:white;
+  padding: 5px 5px; 
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  text-align: left; 
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

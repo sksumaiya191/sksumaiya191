@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+.about-container {
+  padding: 10px;
+  background-color: #002147; 
+
+}
+
+.my-image {
+  float: left;
+  margin-right: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1effe5;
+  font-family: 'oxygen', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  color: white;
+  font-family: 'oxygen', sans-serif;
+}
+
+.bio-section {
+  margin-bottom: 50px;
+}
+
+.colored-word {
+  color: #1effe5;
+}
+
+ul {
+  list-style-type: circle; 
+  padding: 2;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.icon-box {
+  display: inline-block; 
+  vertical-align: top; 
+  padding:100px;
+}
+
+.skill-icon {
+  font-size: 100px;
+  margin-bottom: 10px;
+  color:white;
+  font-family: 'oxygen', serif;
+}
+
+.skill-label {
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(20, 17, 17);
+  font-family: 'oxygen', sans-serif;
+}
+
+.form-range {
+  width: 200%;
+}
+
+.box-around {
+  width: 50%;
+}
+.bio-section {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.bio-section h2 {
+  margin-bottom: 10px;
+  color: #1effe5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.bio-section .details {
+  flex: 1;
+}
+
+.bio-section .details p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.bio-section .details p strong {
+  font-weight: bold;
+}
+
+.bio-section .details p a {
+  color: #1effe5;
+  text-decoration: none;
+}
+
+.bio-section .details p a:hover {
+  text-decoration: underline;
+}
