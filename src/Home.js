@@ -6,15 +6,15 @@ import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    
+    <h1>Welcome to My Portfolio</h1>
     <div className="home-container">
       
       <div className="background-container">
         <div className="content">
           <div className="text-content">
-            
+            <h1>Welcome to My Portfolio
             <div>
-              <h1>Welcome to My Portfolio</h1>
+              </h1>
               <TypeWriter />
             </div>
             <div className="contact-me">
