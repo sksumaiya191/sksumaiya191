@@ -8,13 +8,14 @@ const Home = () => {
   return (
     
     <div className="home-container">
-      <h1>Welcome to My Portfolio</h1>
+      
       <div className="background-container">
+    <h1>Welcome to My Portfolio</h1>
         <div className="content">
           <div className="text-content">
-            <h1>Welcome to My Portfolio
+            <h1>Welcome to My Portfolio</h1>
             <div>
-              </h1>
+              
               <TypeWriter />
             </div>
             <div className="contact-me">
