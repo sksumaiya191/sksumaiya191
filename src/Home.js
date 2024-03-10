@@ -10,14 +10,14 @@ const Home = () => {
     <div className="home-container">
       
       <div className="background-container">
-    <h1>Welcome to My Portfolio</h1>
+    
         <div className="content">
           <div className="text-content">
             <h1>Welcome to My Portfolio</h1>
-            <div>
+            
               
               <TypeWriter />
-            </div>
+            
             <div className="contact-me">
               <h3>Contact Me</h3>
               
