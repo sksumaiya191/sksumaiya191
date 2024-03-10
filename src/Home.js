@@ -6,9 +6,9 @@ import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <h1>Welcome to My Portfolio</h1>
+    
     <div className="home-container">
-      
+      <h1>Welcome to My Portfolio</h1>
       <div className="background-container">
         <div className="content">
           <div className="text-content">
