@@ -15,8 +15,9 @@ const Home = () => {
           <div className="text-content">
             <h1>Welcome to My Portfolio</h1>
             
-              
+              <div>
               <TypeWriter />
+              </div>
             
             <div className="contact-me">
               <h3>Contact Me</h3>
