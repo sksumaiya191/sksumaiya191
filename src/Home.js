@@ -14,14 +14,14 @@ const Home = () => {
           <div className="text-content">
             
             <div>
-              <h1>Welcome to My Portfolio</h1>
+              <h1>__Welcome to My Portfolio__</h1>
               <TypeWriter />
             </div>
             <div className="contact-me">
               <h3>Contact Me</h3>
               
              
-                Email{' '}
+            <strong>  Email{' '}</strong>
                   <form action="mailto:sksumaiya191@gmail.com" method="post" encType="text/plain">
                   <button className="contact-button" type="submit">Click here </button>
                 </form>

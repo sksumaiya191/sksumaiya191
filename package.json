@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/icons-material": "^5.15.12",
     "@react-aria/ssr": "^3.9.1",
     "@restart/ui": "version_compatible_with_react_18",
     "@testing-library/jest-dom": "^5.17.0",

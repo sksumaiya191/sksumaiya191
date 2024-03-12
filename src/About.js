@@ -40,11 +40,11 @@ function About() {
         <h2>Work Experience:</h2>
         <ul>
           <li>Intern as a front-end developer at <span className="colored-word">'Epireum Consultancy & services'</span> Oy,finland(Remote)</li>
-          <li>
+         
             <p style={{ fontStyle: 'normal', color: 'smokewhite' }}>
-              As a front-end developer intern, My responsibilities would likely involve tasks related to designing, developing, and implementing the user interface and user experience aspects of web applications or websites under the guidance of experienced professionals within the company.
+              ---As a front-end developer intern, My responsibilities would likely involve tasks related to designing, developing, and implementing the user interface and user experience aspects of web applications or websites under the guidance of experienced professionals within the company.
             </p>
-          </li>
+          
         </ul>
       </div>
       <div>

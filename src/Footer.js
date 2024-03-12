@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className='container footer'>
-      <p>Designed and Developed by Sumaiya Shaik</p>
+      <p>Designed and Developed by Sumaiya </p>
       <p className="copyright-text">Copyright © {year}</p>
       <div className='fiicons-container'>
         <a className='fisocial-icons' href='https://www.instagram.com/_smiley_sumaiya___/' target='_blank' rel="noreferrer">
