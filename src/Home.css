@@ -12,29 +12,31 @@ body {
 }
 
 h1 {
-  color:white;
+  color: white;
 }
 
 h2 {
-  color: #1effe5; }
+  color: #1effe5;
+   }
 
-.background-container {
-  background-image: url('/public/image/pic.png'); 
-  background-repeat: no-repeat; 
-  background-size: cover; 
-  background-position: center; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  height: 100vh; 
-}
-
-@media (max-width: 768px) { 
   .background-container {
-    background-size: cover;
+    background-image: url('/public/image/pic.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
   }
-}
+  
+  @media (max-width: 768px) { 
+    .background-container {
+      background-size: cover;
+    }
+  }
+  
 
 .text-container {
   display: flex; 
@@ -43,12 +45,12 @@ h2 {
 }
 
 .text-content {
-  margin-top: 250px; 
+  margin-top: 300px; 
   display: flex;
-  margin-left: 150px; /* Adjust margin-left to move content to the left */
+  margin-left: 100px;
   flex-direction: column; 
-  align-items: left; /* Align items to the left */
-  justify-content: left; /* Justify content to the left */
+  align-items: left; 
+  justify-content: left; 
 }
 
 .content {
@@ -56,7 +58,7 @@ h2 {
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
-  margin-bottom: 30px; 
+  margin-bottom: 40px; 
 }
 
 .contact-button {
@@ -64,8 +66,9 @@ h2 {
   color: white; 
   border: none; 
   padding: 10px 20px; 
-  border-radius: 5px; 
+  border-radius: 50px; 
   cursor: pointer; 
+  
 }
 
 .contact-button:hover {
@@ -74,11 +77,11 @@ h2 {
 
 .home-page .fisocial-icons {
   display: flex; 
-  font-size: 24px; 
+  font-size: 2px; 
 }
 
 .fisocial-icons {
-  margin: 0 5px; 
+  margin: 0 4px; 
   color: white; 
-  font-size: 25px; 
+  font-size: 20px; 
 }
