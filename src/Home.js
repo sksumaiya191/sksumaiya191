@@ -29,7 +29,7 @@ const Home = () => {
               <a className='fisocial-icons' href='https://github.com/sksumaiya191' target='_blank' rel="noreferrer">
                 <FaGithub />
               </a>
-              <a className='fisocial-icons' href='https://linkedin.com/in/sumaiyashaik' target='_blank' rel="noreferrer">
+              <a className='fisocial-icons' href='https://www.linkedin.com/in/sumaiya-shaik-926155281/' target='_blank' rel="noreferrer">
                 <FaLinkedin />
               </a>
             </div>
